@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>My Bootstrap Website</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/LoginCss/login.css">
   </head>
   <body>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -15,6 +15,17 @@
     <!--This is my Log in border-->
     <div class="login-container">
       <div class="login-border">
+        <img src="/PNG/cuisine.png" class="center-image">
+        <h2 style="font-family: 'Leckerli One', cursive;">Iniciar sesión</h2>
+          <form action="" method="post">
+            <input class="BorderBox" type="text" id="username" name="username" placeholder="Email" required><br><br>
+          
+            <input class="BorderBox" type="password" id="password" name="password" placeholder="Contraseña" required><br><br>
+          
+            <p>¿Has olvidado la contraseña?  <a href="#">Recuperar contraseña</a></p>
+            <input class="border-submit" type="submit" value="Acceder">
+            <p>¿No tienes cuenta?  <a href="#">Regístrate</a></p>
+          </form>
       </div>
     </div>
 
