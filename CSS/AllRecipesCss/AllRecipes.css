@@ -1,0 +1,25 @@
+.side-navbar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    padding: 20px;
+    
+    justify-content: center;
+
+    border: 1px solid #DCDCDC;
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  .side-navbar a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .side-navbar a:hover {
+    color: #000;
+  }
