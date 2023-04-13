@@ -12,28 +12,37 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="/JAVASCRIPT/script.js"></script>
 
-  <!--This is my Body divides by 2 columns, NavBar(col-2) and Body(col-10)-->
-    <div class="row">
-        
-        <!--This is my Navbar-->
-        <div class="col-2">
-            <div class="side-navbar">
-                <img src="/PNG/cuisine.png" style="width: 100%;">
-                <a href="#"><img src="/PNG/Home.png">&nbsp; Inicio</a>
-                <a href="#"><img src="/PNG/Receipt.png">&nbsp; Recetas</a>
-                <a href="#"><img src="/PNG/Heart.png">&nbsp; Favoritas</a>
-                <a href="#"><img src="/PNG/Browser.png">&nbsp; Menús</a>
-                <a href="#"><img src="/PNG/Message circle.png">&nbsp; Nutri-Chat</a>
-                <a href="#"><img src="/PNG/Coupon 1.png">&nbsp; Descuentos</a>
-              </div>
+    <!--Splitting website into 2 parts. NavBar (250px) and Content (1fr)-->
+    <div style="display: grid;grid-template-columns: 250px 1fr"  class="vh-100 border-1">
+      
+      <!-- SIDEBAR  -->
+      <div class="name  pt-3  border">
+        <img src="/PNG/cuisine.png" width="100%">
+        <div class="pl-4 d-flex flex-column">
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Home.png">&nbsp; Inicio</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Receipt.png">&nbsp; Recetas</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Heart.png">&nbsp; Favoritas</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Browser.png">&nbsp; Menús</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Message circle.png">&nbsp; Nutri-Chat</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Coupon 1.png">&nbsp; Descuentos</a>
         </div>
-        
-        <!--This is my body-->
-        <div class="col-10" style="padding-bottom: 50px;">
-            
         </div>
 
+      <!-- CONTENT  -->
+      <div class="container mt-5">
+        <div class="row g-2"> 
+          <img class="col-12 col-sm-12 col-md-12" width="100%" src="/PNG/Rectangle 1.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 2.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 3.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 4.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 7.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 8.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 9.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 10.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 12.png" alt="">
+        </div>
+      </div>
     </div>
-      
+
   </body>
 </html>
