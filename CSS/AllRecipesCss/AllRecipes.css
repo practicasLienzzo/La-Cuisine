@@ -1,0 +1,12 @@
+.BorderBox{
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    left: 570px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 50px;
+    font-weight: bold;
+    padding-left: 20px;
+}
