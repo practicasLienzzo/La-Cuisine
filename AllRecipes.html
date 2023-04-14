@@ -13,10 +13,10 @@
     <script src="/JAVASCRIPT/script.js"></script>
 
     <!--Splitting website into 2 parts. NavBar (250px) and Content (1fr)-->
-    <div style="display: grid;grid-template-columns: 250px 1fr"  class="vh-100 border-1">
+    <div style="display: grid;grid-template-columns: 250px 1fr"  class="vh-100">
       
       <!-- SIDEBAR  -->
-      <div class="name  pt-3  border">
+      <div class="name  pt-3 border">
         <img src="/PNG/cuisine.png" width="100%">
         <div class="pl-4 d-flex flex-column">
           <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Home.png">&nbsp; Inicio</a>
@@ -26,21 +26,58 @@
           <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Message circle.png">&nbsp; Nutri-Chat</a>
           <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Coupon 1.png">&nbsp; Descuentos</a>
         </div>
-        </div>
+      </div>
 
       <!-- CONTENT  -->
-      <div class="container mt-5">
-        <div class="row g-2"> 
-          <img class="col-12 col-sm-12 col-md-12" width="100%" src="/PNG/Rectangle 1.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 2.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 3.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 4.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 7.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 8.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 9.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 10.png" alt="">
-          <img class="col-12 col-sm-6 col-md-4" width="100%" src="/PNG/Rectangle 12.png" alt="">
+      <div class="container">
+        
+        <!--This is my Content Above The Recipes-->
+        <div class="row mt-4">
+          <div class="col-6">
+            <h2>Inicio</h2>
+          </div>
+
+          <div class="col-6 d-flex justify-content-end">
+            <!--SreachBar-->
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Buscar recetas..." aria-label="Search">
+            </div>
+            <!--Icons-->
+            <div>
+
+            </div>
+          </div>
         </div>
+
+        <!--This is my Recipes-->
+        <div class="row g-5 mt-4"> 
+          <img class="col-12 col-sm-12 col-md-12 pb-3" width="100%" src="/PNG/Rectangle 1.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 2.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 3.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 4.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 7.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 8.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 9.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 10.png" alt="">
+          <img class="col-12 col-sm-6 col-md-4 p-3" width="100%" src="/PNG/Rectangle 12.png" alt="">
+        </div>
+
+        <!--This is my Footer-->
+        <div class="row mt-3">
+          <div class="col-6">
+            <p>© 2023 La Cuisine dels Petits. Todos los derechos reservados.</p>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <a class="end-0 mr-5" href="#" style="text-decoration: none; color:grey">Cookies Policy</a>
+            <a class="end-0 mr-5" href="#" style="text-decoration: none; color:grey">Privacy Policy</a>
+            <a class="end-0" href="#" style="text-decoration: none; color:grey">Terms of Service</a>
+          </div>
+          
+        </div>
+
       </div>
     </div>
 
