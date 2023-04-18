@@ -53,15 +53,50 @@
         </div>
 
         <!--This is my Recipes-->
-        <div class="row g-5"> 
+        <div class="row g-5">
           <div class="col-12 col-sm-12 col-md-12 pb-3 position-relative"> 
-            <img width="100%" src="/PNG/Rectangle 1.png" alt="">
-          
-            <div class="position-absolute" style="bottom: 150px;left: 625px;">
-              <p class="text-white fw-bold fs-5">Text 1</p>  
-              <p class="text-white">Text 2</p>
-            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="position-relative"> 
+                    <img class="w-100" src="/PNG/Rectangle 1.png" alt="">
+                    <div class="position-absolute translate-middle-x text-center" style="bottom:150px; left:650px;">
+                      <p class="text-white fw-bold fs-5">Menú celiaco para niños</p>  
+                      <button type="button" class="btn border border-3 rounded-pill fw-bold" style="color: white;">&nbsp;&nbsp; Ver receta &nbsp;&nbsp;</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!-- Second slide content here -->
+                </div>
+                <div class="carousel-item">
+                  <!-- Third slide content here -->
+                </div>
+                <div class="carousel-item">
+                  <!-- Fourth slide content here -->
+                </div>
+                <div class="carousel-item">
+                  <!-- Fifth slide content here -->
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>          
           </div>
+          
 
           <div class="col-12 col-sm-6 col-md-4 pb-3 position-relative"> 
             <img width="100%" src="/PNG/Rectangle 2.png" alt="">
