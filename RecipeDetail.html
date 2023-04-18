@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Bootstrap Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/AllRecipesCss/AllRecipes.css">  
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="/JAVASCRIPT/script.js"></script>
+
+    <!--Splitting website into 2 parts. NavBar (250px) and Content (1fr)-->
+    <div style="display: grid;grid-template-columns: 250px 1fr"  class="vh-100">
+      
+      <!-- SIDEBAR  -->
+      <div class="name pt-3 border">
+        <img src="/PNG/cuisine.png" width="100%">
+        <div class="pl-4 d-flex flex-column">
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Home.png">&nbsp; Inicio</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Receipt.png">&nbsp; Recetas</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Heart.png">&nbsp; Favoritas</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Browser.png">&nbsp; Menús</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Message circle.png">&nbsp; Nutri-Chat</a>
+          <a style="text-decoration: none; color: black;" href="" class="mt-4"><img src="/PNG/NavBar/Coupon 1.png">&nbsp; Descuentos</a>
+        </div>
+      </div>
+
+      <!-- CONTENT  -->
+      <div class="container">
+        
+        <!--This is my Content Above The Recipes-->
+        <div class="row mt-4">
+          <!--Heading-->
+          <div class="col-6">
+            <h2>Inicio</h2>
+          </div>
+
+          <div class="col-6 d-flex justify-content-end align-items-center">
+            <!--SearchBar-->
+              <input class="BorderBox mr-3" type="text" placeholder="Buscar recetas..." required>
+            <!--Icons-->
+            <div>
+              <i class="bi bi-filter-circle mr-2" style="font-size: 2em;"></i>
+              <i class="bi bi-person-circle" style="font-size: 2em;"></i>
+            </div>
+          </div>
+        </div>
+
+        <!--This is my Recipes-->
+        
+
+        <!--This is my Footer-->
+        <div class="row mt-3">
+          <div class="col-6">
+            <p>© 2023 La Cuisine dels Petits. Todos los derechos reservados.</p>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <a class="end-0 mr-5" href="#" style="text-decoration: none; color:grey">Cookies Policy</a>
+            <a class="end-0 mr-5" href="#" style="text-decoration: none; color:grey">Privacy Policy</a>
+            <a class="end-0" href="#" style="text-decoration: none; color:grey">Terms of Service</a>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
